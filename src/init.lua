@@ -14,12 +14,12 @@ local function autoload(path, constructor)
     __index = function(self, key)
       -- The init.lua file for a group of submodules is always loaded first.
       if constructor and not rawget(self, 'new') then
-        require(path .. '.init')
+        require('com.logiceditor.fork.' .. path .. '.init')
         local value = rawget(self, key)
         if value then return value end
       end
       -- Load the requested submodule.
-      local value = require(path .. '.' .. key)
+      local value = require('com.logiceditor.fork.' .. path .. '.' .. key)
       self[key] = value
       return value
     end,

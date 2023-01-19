@@ -8,7 +8,7 @@
 
 ]]
 
-local lxsh = require 'lxsh'
+local lxsh = require 'com.logiceditor.fork.lxsh'
 
 return lxsh.highlighters.new {
   lexer = lxsh.lexers.bib,
