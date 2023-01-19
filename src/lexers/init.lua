@@ -8,7 +8,7 @@
 
 ]]
 
-local lxsh = require 'lxsh'
+local lxsh = require 'com.logiceditor.fork.lxsh'
 local lpeg = require 'lpeg'
 
 -- Primitive LPeg patterns.

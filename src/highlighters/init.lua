@@ -33,7 +33,7 @@
 
 ]]
 
-local lxsh = require 'lxsh'
+local lxsh = require 'com.logiceditor.fork.lxsh'
 local lpeg = require 'lpeg'
 
 -- LPeg patterns to decorate the token stream (richer highlighting). {{{1

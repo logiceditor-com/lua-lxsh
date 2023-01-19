@@ -8,7 +8,7 @@
 
 ]]
 
-local lxsh = require 'lxsh'
+local lxsh = require 'com.logiceditor.fork.lxsh'
 
 local function lua2html(source)
   return lxsh.highlighters.lua(source, {

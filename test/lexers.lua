@@ -8,7 +8,7 @@
 
 ]]
 
-local lxsh = require 'lxsh'
+local lxsh = require 'com.logiceditor.fork.lxsh'
 
 -- Enable this to debug test failures.
 local verbose = false

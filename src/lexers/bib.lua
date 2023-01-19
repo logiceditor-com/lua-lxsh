@@ -12,7 +12,7 @@
 
 ]]
 
-local lxsh = require 'lxsh'
+local lxsh = require 'com.logiceditor.fork.lxsh'
 local lpeg = require 'lpeg'
 
 local P, R, S = lpeg.P, lpeg.R, lpeg.S
